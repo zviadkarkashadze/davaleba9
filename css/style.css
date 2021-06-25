@@ -1,3 +1,7 @@
+html {
+  width: 100%;
+}
+
 .header {
   display: flex;
   position: fixed;
@@ -19,30 +23,10 @@
   font-size: 20px;
   color: #3D37F1;
 }
-.container {
-  margin-left: 180px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+.burger-bar{
+  color: black;
+  font-size: 25px;
+  display: none;
 }
 .firstdiv {
   display: flex;
@@ -50,15 +34,17 @@
   max-width: 1800px;
   width: 100%;
   margin-top: 390px;
-  margin-left: 132px;
 }
 .left-box {
-  width: 600px;
-  height: 200px;
+  width: 100%;
+  margin-left: 132px;
 }
 .right-box {
-  width: 800px;
-  height: 526px;
+  width: 100%;
+  margin-right: 80px;
+}
+.right-box img {
+  width: 100%;
 }
 .h2 {
   font-size: 78px;
@@ -85,7 +71,8 @@
   font-family: 'Poppins', sans-serif;
 }
 .seconddiv {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 78px;
   text-align: center;
@@ -113,7 +100,8 @@
   flex-wrap: wrap;
 }
 .block1 {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
   background-color: #FBBA77;
   display: flex;
   justify-content: center;
@@ -141,14 +129,16 @@
   font-family: 'Lato', sans-serif;
 }
 .paragraph4 {
-  width: 328px;
+  max-width: 328px;
+  width: 100%;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-bottom: 11px;
 }
 .block2 {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
   background-color: #41EAE3; 
   display: flex;
   justify-content: center;
@@ -157,7 +147,8 @@
   padding-bottom: 60px;
 }
 .block3 {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
   background-color: #69529F; 
   display: flex;
   justify-content: center;
@@ -185,7 +176,8 @@
 }
 .block4 {
   background-color: #4386D2;
-  width: 370px; 
+  max-width: 370px; 
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -194,7 +186,8 @@
 }
 .block5 {
   background-color: #A5A2F6;
-  width: 370px; 
+  max-width: 370px; 
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,7 +196,8 @@
 }
 .block6 {
   background-color: #FF8088;
-  width: 370px; 
+  max-width: 370px; 
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
